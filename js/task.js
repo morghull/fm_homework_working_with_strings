@@ -2,6 +2,7 @@
 
 const vowelCount = (str) =>
   String(str)
+    .toLowerCase()
     .split('')
     .filter((letter) =>
       ['a', 'u', 'e', 'i', 'o'].includes(letter)
